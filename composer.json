@@ -1,0 +1,15 @@
+{
+    "name": "ecdarwin/ct1",
+    "description": "ecdarwin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lichunqiang",
+            "email": "light-li@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": ["Wechat.php"]
+    }
+}
