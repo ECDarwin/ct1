@@ -16,3 +16,8 @@ classmap 引用的所有组合，都会在 install/update 过程中生成，并�
 ```
 
 [参考](http://docs.phpcomposer.com/04-schema.md#Classmap)
+
+
+## 问题
+
+直接安装 `ecdarwin/ct1=*` 不成功, 而需要指定为 `dev-master`
