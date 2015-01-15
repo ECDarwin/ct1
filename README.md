@@ -20,4 +20,24 @@ classmap 引用的所有组合，都会在 install/update 过程中生成，并�
 
 ## 问题
 
+在没有 tag 之前
+
 直接安装 `ecdarwin/ct1=*` 不成功, 而需要指定为 `dev-master`
+
+[解决办法](http://docs.phpcomposer.com/04-schema.md#minimum-stability)
+
+```
+$ composer require ecdarwin/ct1=dev-master
+```
+
+还可以在 `composer.json` 中指定：
+
+```
+minimum-stability: 'dev-master'
+```
+
+## 更多
+
+经过测试，在classmap中指定的文件或者目录中被扫描的class都会写入composer 的auto_classmap.php,
+
+而如果存在相同的类，后面被扫描的就会覆盖前面的地址。
