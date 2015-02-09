@@ -6,4 +6,9 @@ class Enterprise
 	{
 		echo __METHOD__;
 	}
+
+	public function __construct()
+	{
+
+	}
 }
