@@ -9,6 +9,6 @@ class Enterprise
 
 	public function __construct()
 	{
-
+		echo 'change in hotfix branch';
 	}
 }
