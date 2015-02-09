@@ -7,4 +7,9 @@ class Wechat
 	{
 		echo 'load wechat success';
 	}
+
+	public function __construct()
+	{
+		echo 'for hotfix branch';
+	}
 }
