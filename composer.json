@@ -10,6 +10,13 @@
     ],
     "require": {},
     "autoload": {
-        "classmap": ["Wechat.php", "Utils", "enterprise.class.php"]
+        "psr-4": {
+            "code_base\\": "code_base"
+        },
+        "classmap": [
+            "Wechat.php",
+            "Utils",
+            "enterprise.class.php"
+        ]
     }
 }

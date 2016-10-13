@@ -10,4 +10,6 @@ return array(
     'Helper' => $baseDir . '/Utils/Helper.php',
     'Person' => $baseDir . '/Utils/Helper.php',
     'Wechat' => $baseDir . '/Wechat.php',
+    'code_base\\che\\Vars' => $baseDir . '/code_base/che/Vars.php',
+    'code_base\\fuwu\\Vars' => $baseDir . '/code_base/fuwu/Vars.php',
 );
